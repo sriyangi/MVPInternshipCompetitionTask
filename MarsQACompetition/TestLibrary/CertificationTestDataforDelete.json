@@ -1,0 +1,14 @@
+{
+  "CertificationModel": [
+    {
+      "certificationName": "MVP Advance Certified",
+      "certificationBody": "MVP",
+      "graduationYear": "2020"
+    },
+    {
+      "certificationName": "Java Certified",
+      "certificationBody": "Oracle",
+      "graduationYear": "2021"
+    }
+  ]
+}

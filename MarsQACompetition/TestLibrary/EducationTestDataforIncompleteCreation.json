@@ -1,0 +1,18 @@
+{
+  "EducationModel": [
+    {
+      "universityName": "",
+      "country": "New Zealand",
+      "title": "M.B.A",
+      "degree": "Master of Business Management",
+      "graduationYear": "2023"
+    },
+    {
+      "universityName": "RMIT University",
+      "country": "Australia",
+      "title": "B.Sc",
+      "degree": "",
+      "graduationYear": "2020"
+    }
+  ]
+}

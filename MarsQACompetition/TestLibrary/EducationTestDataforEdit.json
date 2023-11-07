@@ -1,0 +1,28 @@
+{
+  "EducationEditModel": [
+    {
+      "universityName": "University of Auckland New",
+      "country": "Australia",
+      "title": "B.Sc",
+      "degree": "Master of Information Systems New",
+      "graduationYear": "2016",
+      "oldUniversityName": "University of Auckland",
+      "oldCountry": "New Zealand",
+      "oldTitle": "M.B.A",
+      "oldDegree": "Master of Information Systems",
+      "oldGraduationYear": "2015"
+    },
+    {
+      "universityName": "Manchester Metropolitant New",
+      "country": "Malaysia",
+      "title": "M.B.A",
+      "degree": "Human Resources New",
+      "graduationYear": "2014",
+      "oldUniversityName": "Manchester Metropolitant",
+      "oldCountry": "United Kingdom",
+      "oldTitle": "B.Sc",
+      "oldDegree": "Human Resources",
+      "oldGraduationYear": "2013"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "CertificationModel": [
+    {
+      "certificationName": "Oracle Certified Professional, Java EE 7 Application Developer",
+      "certificationBody": "Oracle",
+      "graduationYear": "2023"
+    },
+    {
+      "certificationName": "MVP Certified",
+      "certificationBody": "MVP",
+      "graduationYear": "2020"
+    }
+  ]
+}
