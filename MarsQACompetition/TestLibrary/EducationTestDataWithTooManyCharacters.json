@@ -1,0 +1,18 @@
+{
+  "EducationModel": [
+    {
+      "universityName": "abcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghij",
+      "country": "New Zealand",
+      "title": "M.B.A",
+      "degree": "abcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghij",
+      "graduationYear": "2023"
+    },
+    {
+      "universityName": "abcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdef123",
+      "country": "Australia",
+      "title": "B.Sc",
+      "degree": "abcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefg123",
+      "graduationYear": "2020"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "EducationModel": [
+    {
+      "universityName": "University of Auckland",
+      "country": "New Zealand",
+      "title": "M.B.A",
+      "degree": "Master of Information Systems",
+      "graduationYear": "2015"
+    },
+    {
+      "universityName": "Manchester Metropolitant",
+      "country": "United Kingdom",
+      "title": "B.Sc",
+      "degree": "Human Resources",
+      "graduationYear": "2013"
+    }
+  ]
+}

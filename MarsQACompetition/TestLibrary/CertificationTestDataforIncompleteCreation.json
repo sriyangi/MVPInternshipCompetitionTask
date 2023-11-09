@@ -1,0 +1,14 @@
+{
+  "CertificationModel": [
+    {
+      "certificationName": "",
+      "certificationBody": "",
+      "graduationYear": "2023"
+    },
+    {
+      "certificationName": "",
+      "certificationBody": "MVP",
+      "graduationYear": "2020"
+    }
+  ]
+}

@@ -1,0 +1,1000 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <title></title>
+ <link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/commons/img/logo.png">
+ <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/commons/img/logo.png">
+ <link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+ <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+ <script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/7cc78ce/spark/js/jsontree.js"></script>
+ <style></style>
+</head>
+<body class="spa  standard">
+ <div class="app">
+  <div class="layout">
+   <div class="header navbar">
+ <div class="vheader">
+  <div class="nav-logo">
+   <a href="#">
+	 <div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c43b89d03a7c43dae8bb8f0f078bad1997af6b3b/commons/img/logo.png')"></div>
+   </a>
+  </div>
+  <ul class="nav-left">
+   <li class="search-box">
+	<a class="search-toggle" href="#"><i class="search-icon fa fa-search"></i><i class="search-icon-close fa fa-close"></i></a>
+   </li>
+   <li class="search-input">
+    <input id="search-tests" class="form-control" type="text" placeholder="Search...">
+   </li>
+  </ul>
+  <ul class="nav-right">
+   <li class="m-r-10"><a href="#"><span class="badge badge-primary"></span></a></li>
+   <li class="m-r-10">
+    <a href="#"><span class="badge badge-primary">11/9/2023 10:30:18 AM</span></a>
+   </li>
+  </ul>
+ </div>
+</div>
+   <div class="side-nav">
+ <div class="side-nav-inner">
+  <ul class="side-nav-menu">
+   <li class="nav-item dropdown" onclick="toggleView('test-view')">
+    <a id="nav-test" class="dropdown-toggle" href="#">
+     <span class="ico"><i class="fa fa-list"></i></span>
+    </a>
+   </li>
+   <li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+    <a id="nav-dashboard" class="dropdown-toggle" href="#">
+     <span class="ico"><i class="fa fa-bar-chart"></i></span>
+    </a>
+   </li>
+  </ul>
+ </div>
+</div>
+
+   <div class="vcontainer">
+    <div class="main-content">
+     
+
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+      <ul class="tools pull-left">
+        <li><a href="#"><span class="font-size-14">Tests</span></a></li>
+      </ul>
+      <ul class="tools text-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+          <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+ <a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>             <div class="dropdown-divider"></div>
+            <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item" status="pass" test-id="17"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Login/Click Education Tab Test: Login</p>
+            <p class="text-sm">
+              <span>10:30:21 AM</span> / <span>8284.85 secs</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">Login/Click Education Tab Test: Login</h5>
+                  <span class='badge badge-success'>11/9/2023 10:30:21 AM</span>
+                  <span class='badge badge-danger'>11/9/2023 10:30:29 AM</span>
+                  <span class='badge badge-default'>8284.85 secs</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:30 AM</td>
+        <td>
+Test steps finished for test case Login        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:30 AM</td>
+        <td>
+Test ended with Pass        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="18"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Education deletion for all records Test: deleteAllEducationRecords</p>
+            <p class="text-sm">
+              <span>10:30:29 AM</span> / <span>21029.16 secs</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">Education deletion for all records Test: deleteAllEducationRecords</h5>
+                  <span class='badge badge-success'>11/9/2023 10:30:29 AM</span>
+                  <span class='badge badge-danger'>11/9/2023 10:30:50 AM</span>
+                  <span class='badge badge-default'>21029.16 secs</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=18</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:30 AM</td>
+        <td>
+Test steps finished for test case deleteAllEducationRecords        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:30 AM</td>
+        <td>
+Test ended with Pass        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="19"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Education Creation Test: createEducationRecord(MarsQACompetition.Model.EducationModel)<br /> Parameters: Massey University, Master of Business Management, M.B.A, New Zealand, 2023</p>
+            <p class="text-sm">
+              <span>10:30:50 AM</span> / <span>13816.16 secs</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">Education Creation Test: createEducationRecord(MarsQACompetition.Model.EducationModel)<br /> Parameters: Massey University, Master of Business Management, M.B.A, New Zealand, 2023</h5>
+                  <span class='badge badge-success'>11/9/2023 10:30:50 AM</span>
+                  <span class='badge badge-danger'>11/9/2023 10:31:04 AM</span>
+                  <span class='badge badge-default'>13816.16 secs</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=19</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:31 AM</td>
+        <td>
+Test steps finished for test case createEducationRecord(MarsQACompetition.Model.EducationModel)        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:31 AM</td>
+        <td>
+Test ended with Pass        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="20"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Education Creation Test: createEducationRecord(MarsQACompetition.Model.EducationModel)<br /> Parameters: RMIT University, Computer Science, B.Sc, Australia, 2020</p>
+            <p class="text-sm">
+              <span>10:31:04 AM</span> / <span>13727.89 secs</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">Education Creation Test: createEducationRecord(MarsQACompetition.Model.EducationModel)<br /> Parameters: RMIT University, Computer Science, B.Sc, Australia, 2020</h5>
+                  <span class='badge badge-success'>11/9/2023 10:31:04 AM</span>
+                  <span class='badge badge-danger'>11/9/2023 10:31:18 AM</span>
+                  <span class='badge badge-default'>13727.89 secs</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=20</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:31 AM</td>
+        <td>
+Test steps finished for test case createEducationRecord(MarsQACompetition.Model.EducationModel)        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:31 AM</td>
+        <td>
+Test ended with Pass        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="21"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Educcation Duplication Test (1st Step-Create Record): duplicateEducationRecord(MarsQACompetition.Model.EducationModel)</p>
+            <p class="text-sm">
+              <span>10:31:18 AM</span> / <span>11477.34 secs</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">Educcation Duplication Test (1st Step-Create Record): duplicateEducationRecord(MarsQACompetition.Model.EducationModel)</h5>
+                  <span class='badge badge-success'>11/9/2023 10:31:18 AM</span>
+                  <span class='badge badge-danger'>11/9/2023 10:31:29 AM</span>
+                  <span class='badge badge-default'>11477.34 secs</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=21</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:31 AM</td>
+        <td>
+Test steps finished for test case duplicateEducationRecord(MarsQACompetition.Model.EducationModel)        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:31 AM</td>
+        <td>
+Test ended with Pass        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="22"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Education Duplication Test (2nd Step-Duplicate Record): duplicateEducationRecord(MarsQACompetition.Model.EducationModel)</p>
+            <p class="text-sm">
+              <span>10:31:31 AM</span> / <span>8509.8 secs</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">Education Duplication Test (2nd Step-Duplicate Record): duplicateEducationRecord(MarsQACompetition.Model.EducationModel)</h5>
+                  <span class='badge badge-success'>11/9/2023 10:31:31 AM</span>
+                  <span class='badge badge-danger'>11/9/2023 10:31:40 AM</span>
+                  <span class='badge badge-default'>8509.8 secs</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=22</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:31 AM</td>
+        <td>
+Test steps finished for test case duplicateEducationRecord(MarsQACompetition.Model.EducationModel)        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:31 AM</td>
+        <td>
+Test ended with Pass        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="23"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Educcation Duplication Test (1st Step-Create Record): duplicateEducationRecord(MarsQACompetition.Model.EducationModel)</p>
+            <p class="text-sm">
+              <span>10:31:40 AM</span> / <span>11315.53 secs</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">Educcation Duplication Test (1st Step-Create Record): duplicateEducationRecord(MarsQACompetition.Model.EducationModel)</h5>
+                  <span class='badge badge-success'>11/9/2023 10:31:40 AM</span>
+                  <span class='badge badge-danger'>11/9/2023 10:31:51 AM</span>
+                  <span class='badge badge-default'>11315.53 secs</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=23</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:31 AM</td>
+        <td>
+Test steps finished for test case duplicateEducationRecord(MarsQACompetition.Model.EducationModel)        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:31 AM</td>
+        <td>
+Test ended with Pass        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="24"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Education Duplication Test (2nd Step-Duplicate Record): duplicateEducationRecord(MarsQACompetition.Model.EducationModel)</p>
+            <p class="text-sm">
+              <span>10:31:53 AM</span> / <span>8608.76 secs</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">Education Duplication Test (2nd Step-Duplicate Record): duplicateEducationRecord(MarsQACompetition.Model.EducationModel)</h5>
+                  <span class='badge badge-success'>11/9/2023 10:31:53 AM</span>
+                  <span class='badge badge-danger'>11/9/2023 10:32:02 AM</span>
+                  <span class='badge badge-default'>8608.76 secs</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=24</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:32 AM</td>
+        <td>
+Test steps finished for test case duplicateEducationRecord(MarsQACompetition.Model.EducationModel)        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:32 AM</td>
+        <td>
+Test ended with Pass        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="25"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Certification Edit Test: editEducationRecord(MarsQACompetition.Model.EducationEditModel)</p>
+            <p class="text-sm">
+              <span>10:32:02 AM</span> / <span>14679.69 secs</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">Certification Edit Test: editEducationRecord(MarsQACompetition.Model.EducationEditModel)</h5>
+                  <span class='badge badge-success'>11/9/2023 10:32:02 AM</span>
+                  <span class='badge badge-danger'>11/9/2023 10:32:16 AM</span>
+                  <span class='badge badge-default'>14679.69 secs</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=25</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:32 AM</td>
+        <td>
+Test steps finished for test case editEducationRecord(MarsQACompetition.Model.EducationEditModel)        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:32 AM</td>
+        <td>
+Test ended with Pass        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="26"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Certification Edit Test: editEducationRecord(MarsQACompetition.Model.EducationEditModel)</p>
+            <p class="text-sm">
+              <span>10:32:16 AM</span> / <span>14548.37 secs</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">Certification Edit Test: editEducationRecord(MarsQACompetition.Model.EducationEditModel)</h5>
+                  <span class='badge badge-success'>11/9/2023 10:32:16 AM</span>
+                  <span class='badge badge-danger'>11/9/2023 10:32:31 AM</span>
+                  <span class='badge badge-default'>14548.37 secs</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=26</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:32 AM</td>
+        <td>
+Test steps finished for test case editEducationRecord(MarsQACompetition.Model.EducationEditModel)        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:32 AM</td>
+        <td>
+Test ended with Pass        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="27"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Education Delete Test: deleteEducationRecord(MarsQACompetition.Model.EducationModel)</p>
+            <p class="text-sm">
+              <span>10:32:31 AM</span> / <span>12688.8 secs</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">Education Delete Test: deleteEducationRecord(MarsQACompetition.Model.EducationModel)</h5>
+                  <span class='badge badge-success'>11/9/2023 10:32:31 AM</span>
+                  <span class='badge badge-danger'>11/9/2023 10:32:44 AM</span>
+                  <span class='badge badge-default'>12688.8 secs</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=27</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:32 AM</td>
+        <td>
+Test steps finished for test case deleteEducationRecord(MarsQACompetition.Model.EducationModel)        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:32 AM</td>
+        <td>
+Test ended with Pass        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="28"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Education Delete Test: deleteEducationRecord(MarsQACompetition.Model.EducationModel)</p>
+            <p class="text-sm">
+              <span>10:32:44 AM</span> / <span>12722.99 secs</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">Education Delete Test: deleteEducationRecord(MarsQACompetition.Model.EducationModel)</h5>
+                  <span class='badge badge-success'>11/9/2023 10:32:44 AM</span>
+                  <span class='badge badge-danger'>11/9/2023 10:32:56 AM</span>
+                  <span class='badge badge-default'>12722.99 secs</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=28</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:32 AM</td>
+        <td>
+Test steps finished for test case deleteEducationRecord(MarsQACompetition.Model.EducationModel)        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:32 AM</td>
+        <td>
+Test ended with Pass        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="29"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Education Creation with Incomplete Data Test: createEducationRecordWithIncompleteData(MarsQACompetition.Model.EducationModel)<br /> Parameters: , Master of Business Management, M.B.A, New Zealand, 2023</p>
+            <p class="text-sm">
+              <span>10:32:56 AM</span> / <span>8294.11 secs</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">Education Creation with Incomplete Data Test: createEducationRecordWithIncompleteData(MarsQACompetition.Model.EducationModel)<br /> Parameters: , Master of Business Management, M.B.A, New Zealand, 2023</h5>
+                  <span class='badge badge-success'>11/9/2023 10:32:56 AM</span>
+                  <span class='badge badge-danger'>11/9/2023 10:33:05 AM</span>
+                  <span class='badge badge-default'>8294.11 secs</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=29</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:33 AM</td>
+        <td>
+Test steps finished for test case createEducationRecordWithIncompleteData(MarsQACompetition.Model.EducationModel)        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:33 AM</td>
+        <td>
+Test ended with Pass        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="30"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Education Creation with Incomplete Data Test: createEducationRecordWithIncompleteData(MarsQACompetition.Model.EducationModel)<br /> Parameters: RMIT University, , B.Sc, Australia, 2020</p>
+            <p class="text-sm">
+              <span>10:33:05 AM</span> / <span>8204.77 secs</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">Education Creation with Incomplete Data Test: createEducationRecordWithIncompleteData(MarsQACompetition.Model.EducationModel)<br /> Parameters: RMIT University, , B.Sc, Australia, 2020</h5>
+                  <span class='badge badge-success'>11/9/2023 10:33:05 AM</span>
+                  <span class='badge badge-danger'>11/9/2023 10:33:13 AM</span>
+                  <span class='badge badge-default'>8204.77 secs</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=30</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:33 AM</td>
+        <td>
+Test steps finished for test case createEducationRecordWithIncompleteData(MarsQACompetition.Model.EducationModel)        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:33 AM</td>
+        <td>
+Test ended with Pass        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="31"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Education Creation with Too Many Characters Test: createEducationRecordRecordWithTooManyCharacters(MarsQACompetition.Model.EducationModel)<br /> Parameters: abcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghij, abcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghij, M.B.A, New Zealand, 2023</p>
+            <p class="text-sm">
+              <span>10:33:13 AM</span> / <span>14200.82 secs</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">Education Creation with Too Many Characters Test: createEducationRecordRecordWithTooManyCharacters(MarsQACompetition.Model.EducationModel)<br /> Parameters: abcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghij, abcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghij, M.B.A, New Zealand, 2023</h5>
+                  <span class='badge badge-success'>11/9/2023 10:33:13 AM</span>
+                  <span class='badge badge-danger'>11/9/2023 10:33:27 AM</span>
+                  <span class='badge badge-default'>14200.82 secs</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=31</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:33 AM</td>
+        <td>
+Test steps finished for test case createEducationRecordRecordWithTooManyCharacters(MarsQACompetition.Model.EducationModel)        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:33 AM</td>
+        <td>
+Test ended with Pass        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+        <li class="test-item" status="pass" test-id="32"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Education Creation with Too Many Characters Test: createEducationRecordRecordWithTooManyCharacters(MarsQACompetition.Model.EducationModel)<br /> Parameters: abcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdef123, abcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefg123, B.Sc, Australia, 2020</p>
+            <p class="text-sm">
+              <span>10:33:27 AM</span> / <span>14205.12 secs</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+            <div class="detail-head">
+              <div class="p-v-10">
+                <div class="info">
+                  <h5 class="test-status text-pass">Education Creation with Too Many Characters Test: createEducationRecordRecordWithTooManyCharacters(MarsQACompetition.Model.EducationModel)<br /> Parameters: abcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdef123, abcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefg123, B.Sc, Australia, 2020</h5>
+                  <span class='badge badge-success'>11/9/2023 10:33:27 AM</span>
+                  <span class='badge badge-danger'>11/9/2023 10:33:41 AM</span>
+                  <span class='badge badge-default'>14205.12 secs</span>
+                  &middot; <span class='uri-anchor badge badge-default'>#test-id=32</span>
+                  <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+                  <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+                  <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+<div class="detail-body mt-4">
+
+
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:33 AM</td>
+        <td>
+Test steps finished for test case createEducationRecordRecordWithTooManyCharacters(MarsQACompetition.Model.EducationModel)        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:33 AM</td>
+        <td>
+Test ended with Pass        </td>
+      </tr>
+  </tbody>
+</table></div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="test-content scrollable">
+    <div class="test-content-tools">
+      <ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+    </div>
+    <div class="test-content-detail"><div class="detail-body"></div></div>
+  </div>
+</div>
+
+     
+
+<div class="container-fluid p-4 view dashboard-view">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="card"><div class="card-body">
+          <p class="m-b-0">Started</p>
+          <h3>11/9/2023 10:30:18 AM</h3>
+      </div></div>
+    </div>
+    <div class="col-md-3">
+      <div class="card"><div class="card-body">
+          <p class="m-b-0">Ended</p>
+          <h3>11/9/2023 10:33:42 AM</h3>
+      </div></div>
+    </div>
+    <div class="col-md-3">
+      <div class="card"><div class="card-body">
+          <p class="m-b-0 text-pass">Tests Passed</p>
+          <h3>16</h3>
+      </div></div>
+    </div>
+    <div class="col-md-3">
+      <div class="card"><div class="card-body">
+          <p class="m-b-0 text-fail">Tests Failed</p>
+          <h3>0</h3>
+      </div></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-header">
+          <h6 class="card-title">Tests</h6>
+        </div>
+        <div class="card-body">
+          <div class="">
+            <canvas id='parent-analysis' width='115' height='90'></canvas>
+          </div>
+        </div>
+        <div class="card-footer">
+          <div><small data-tooltip='1%'>
+            <b>16</b> tests passed
+            </small>
+          </div>
+          <div>
+            <small data-tooltip='0%'><b>0</b> tests failed, 
+            <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-header">
+          <h6 class="card-title">Log events</h6>
+        </div>
+        <div class="card-body">
+          <div class="">
+            <canvas id='events-analysis' width='115' height='90'></canvas>
+          </div>
+        </div>
+        <div class="card-footer">
+          <div><small data-tooltip='1%'><b>32</b> events passed</small></div>
+          <div>
+            <small data-tooltip='0%'><b>0</b> events failed, 
+            <b data-tooltip='%'>0</b> others
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row"><div class="col-md-12">
+    <div class="card"><div class="card-header"><p>Timeline</p></div>
+      <div class="card-body pt-0"><div>
+        <canvas id="timeline" height="120"></canvas>
+      </div></div>
+    </div>
+  </div></div>
+  <script>
+	var timeline = { "Login/Click Education Tab Test: Login":8284.854,"Education deletion for all records Test: deleteAllEducationRecords":21029.1576,"Education Creation Test: createEducationRecord(MarsQACompetition.Model.EducationModel)<br /> Parameters: Massey University, Master of Business Management, M.B.A, New Zealand, 2023":13816.1599,"Education Creation Test: createEducationRecord(MarsQACompetition.Model.EducationModel)<br /> Parameters: RMIT University, Computer Science, B.Sc, Australia, 2020":13727.8913,"Educcation Duplication Test (1st Step-Create Record): duplicateEducationRecord(MarsQACompetition.Model.EducationModel)":11477.3409,"Education Duplication Test (2nd Step-Duplicate Record): duplicateEducationRecord(MarsQACompetition.Model.EducationModel)":8509.7998,"Educcation Duplication Test (1st Step-Create Record): duplicateEducationRecord(MarsQACompetition.Model.EducationModel)":11315.5269,"Education Duplication Test (2nd Step-Duplicate Record): duplicateEducationRecord(MarsQACompetition.Model.EducationModel)":8608.7553,"Certification Edit Test: editEducationRecord(MarsQACompetition.Model.EducationEditModel)":14679.688,"Certification Edit Test: editEducationRecord(MarsQACompetition.Model.EducationEditModel)":14548.3742,"Education Delete Test: deleteEducationRecord(MarsQACompetition.Model.EducationModel)":12688.7969,"Education Delete Test: deleteEducationRecord(MarsQACompetition.Model.EducationModel)":12722.9922,"Education Creation with Incomplete Data Test: createEducationRecordWithIncompleteData(MarsQACompetition.Model.EducationModel)<br /> Parameters: , Master of Business Management, M.B.A, New Zealand, 2023":8294.1145,"Education Creation with Incomplete Data Test: createEducationRecordWithIncompleteData(MarsQACompetition.Model.EducationModel)<br /> Parameters: RMIT University, , B.Sc, Australia, 2020":8204.774,"Education Creation with Too Many Characters Test: createEducationRecordRecordWithTooManyCharacters(MarsQACompetition.Model.EducationModel)<br /> Parameters: abcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghij, abcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghij, M.B.A, New Zealand, 2023":14200.8156,"Education Creation with Too Many Characters Test: createEducationRecordRecordWithTooManyCharacters(MarsQACompetition.Model.EducationModel)<br /> Parameters: abcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdef123, abcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefghijabcdefg123, B.Sc, Australia, 2020":14205.1202 };
+  </script>
+  <div class="row">
+  </div>
+</div>
+<script>
+  var statusGroup = {
+    parentCount: 16,
+    childCount: 0,
+    grandChildCount: 0,
+    eventsCount: 32,
+
+passParent:16,failParent:0,warningParent:0,skipParent:0,    
+passChild:0,failChild:0,warningChild:0,skipChild:0,infoChild:0,    
+passGrandChild:0,failGrandChild:0,warningGrandChild:0,skipGrandChild:0,infoGrandChild:0,    
+passEvents:32,failEvents:0,warningEvents:0,skipEvents:0,infoEvents:0,  };
+</script>
+
+    </div>
+   </div>
+  </div>
+ </div>
+ <script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@de1c2dd4a8b447f3d7310eed870ae331ba333878/spark/js/spark-script.js"></script>
+<script type='text/javascript'></script>
+</body>
+</html>
