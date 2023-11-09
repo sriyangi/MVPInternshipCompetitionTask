@@ -163,6 +163,23 @@ namespace MarsQACompetition.Tests
 
         }
 
+        [Test, Order(8), TestCaseSource(typeof(JsonReader<EducationModel>), nameof(JsonReader<EducationModel>.TestCases), new object[] { "EducationWithTooManyDataCreate" })]
+        public void createEducationRecordRecordWithTooManyCharacters(EducationModel parameter)
+        {
+            StartExtentTest("Education Creation with Too Many Characters Test: " + TestContext.CurrentContext.Test.Name + "<br /> Parameters: " + parameter.universityName + ", " + parameter.degree + ", " + parameter.title + ", " + parameter.country + ", " + parameter.graduationYear);
+            try
+            {
+                educationPage.CreateRecord(parameter.universityName, parameter.degree, parameter.title, parameter.country, parameter.graduationYear);
+                educationPage.AssertInsertedRecord();
+                Thread.Sleep(2000);
+            }
+            catch (Exception ex)
+            {
+                Assert.Fail("Education record creation with IToo Many Characters failed: " + ex.Message);
+            }
+
+        }
+
         //Write Report
         [TearDown]
         public static void CloseTest()

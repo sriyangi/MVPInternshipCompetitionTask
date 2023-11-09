@@ -47,6 +47,10 @@ namespace MarsQACompetition.Utils
             {
                 fileName = ConstantHelpers.fileNameCertificationTestDataforIncompleteCreation;
             }
+            else if (testCaseType == "CertificcationWithTooManyDataCreate")
+            {
+                fileName = ConstantHelpers.fileNameCertificationTestDataWithTooManyCharacters;
+            }
             else if (testCaseType == "EducationCreation")
             {
                 fileName = ConstantHelpers.fileNameEducationTestDataforCreation;
@@ -66,6 +70,10 @@ namespace MarsQACompetition.Utils
             else if (testCaseType == "EducationIncompleteCreate")
             {
                 fileName = ConstantHelpers.fileNameEducationTestDataforIncompleteCreation;
+            }
+            else if (testCaseType == "EducationWithTooManyDataCreate")
+            {
+                fileName = ConstantHelpers.fileNameEducationTestDataWithTooManyCharacters;
             }
 
             var testFixtureParams = JsonConvert.DeserializeObject<JObject>(File.ReadAllText(GetFilePath(fileName)));

@@ -173,6 +173,22 @@ namespace MarsQACompetition.Tests
             }
         }
 
+        [Test, Order(8), TestCaseSource(typeof(JsonReader<CertificationModel>), nameof(JsonReader<CertificationModel>.TestCases), new object[] { "CertificcationWithTooManyDataCreate" })]
+        public void createCertificationRecordWithTooManyCharacters(CertificationModel parameter)
+        {
+            StartExtentTest("Certification Creation with Too Many Characters Test: " + TestContext.CurrentContext.Test.Name + "<br /> Parameters: " + parameter.certificationName + ", " + parameter.certificationBody + ", " + parameter.graduationYear);
+            try
+            {
+                certificationPage.CreateRecord(parameter.certificationName, parameter.certificationBody, parameter.graduationYear);
+                certificationPage.AssertInsertedRecord(parameter.certificationName);
+                Thread.Sleep(2000);
+            }
+            catch (Exception ex)
+            {
+                Assert.Fail("Certification record creation with Too Many Characters failed: " + ex.Message);
+            }
+        }
+
         //Write Report
         [TearDown]
         public static void CloseTest()

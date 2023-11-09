@@ -26,6 +26,7 @@ namespace MarsQACompetition.Helpers
         public static string fileNameCertificationTestDataforEdit = "CertificationTestDataforEdit.json";
         public static string fileNameCertificationTestDataforDelete = "CertificationTestDataforDelete.json";
         public static string fileNameCertificationTestDataforIncompleteCreation = "CertificationTestDataforIncompleteCreation.json";
+        public static string fileNameCertificationTestDataWithTooManyCharacters = "CertificationTestDataWithTooManyCharacters.json";
 
         //json file names for education test data
         public static string fileNameEducationTestDataforCreation = "EducationTestDataforCreation.json";
@@ -33,5 +34,6 @@ namespace MarsQACompetition.Helpers
         public static string fileNameEducationTestDataforEdit = "EducationTestDataforEdit.json";
         public static string fileNameEducationTestDataforDelete = "EducationTestDataforDelete.json";
         public static string fileNameEducationTestDataforIncompleteCreation = "EducationTestDataforIncompleteCreation.json";
+        public static string fileNameEducationTestDataWithTooManyCharacters = "EducationTestDataWithTooManyCharacters.json";
     }
 }
